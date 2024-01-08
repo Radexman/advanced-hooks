@@ -1,10 +1,11 @@
+import RefExampleOne from "./components/RefExampleOne";
+
 function App() {
   return (
-    <div>
-      <h1 className="tarcking-wide text-3xl uppercase text-slate-500">
-        Hello World
-      </h1>
-    </div>
+    <>
+      <h1 className="text-3xl">useRef</h1>
+      <RefExampleOne />
+    </>
   );
 }
 
