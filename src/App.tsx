@@ -1,10 +1,10 @@
-import RefExampleOne from "./components/RefExampleOne";
+import RefExampleTwo from "./components/RefExampleTwo";
 
 function App() {
   return (
     <>
       <h1 className="text-3xl">useRef</h1>
-      <RefExampleOne />
+      <RefExampleTwo />
     </>
   );
 }
