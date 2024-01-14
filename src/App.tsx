@@ -1,10 +1,10 @@
-import UseCallbackExample from "./components/UseCallbackExample";
+import CustomHookExampleOne from "./components/CustomHookExampleOne";
 
 function App() {
   return (
     <>
-      <h1 className="text-3xl">useCallback</h1>
-      <UseCallbackExample />
+      <h1 className="text-3xl">useFetch</h1>
+      <CustomHookExampleOne />
     </>
   );
 }
